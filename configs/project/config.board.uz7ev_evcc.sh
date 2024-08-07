@@ -23,7 +23,7 @@ case "$PETALINUX_BOARD_PROJECT" in
         ${KCONFIG_EDIT} --file ${CONFIG_FILE} --set-str CONFIG_YOCTO_INCLUDE_MACHINE_NAME 'uz7ev-evcc-hdmi';
         ;;
 
-    "hdmi-v")
+    "hdmi_v")
         ${KCONFIG_EDIT} --file ${CONFIG_FILE} --set-str CONFIG_YOCTO_MACHINE_NAME 'uz7ev-evcc-hdmi-v';
         ${KCONFIG_EDIT} --file ${CONFIG_FILE} --set-str CONFIG_YOCTO_INCLUDE_MACHINE_NAME 'uz7ev-evcc-hdmi-v';
         ;;
